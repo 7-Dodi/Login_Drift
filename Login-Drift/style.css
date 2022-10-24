@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.body{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+@media (min-width: 320px) and (max-Width: 880px) {
+.video{
+    height: 100vh;
+    padding: 0%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.login{
+    width: 250px;
+    height: 280px;
+    background-color: rgba(237, 237, 237, 0.455);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.meio{
+    width: 100%;
+}
+.login h1{
+    color: #fff;
+}
+.login input{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgba(237, 237, 237, 0.704);
+    cursor: pointer;
+    font-size: 18px;
+}
+#nome:hover{
+    background-color: rgba(237, 237, 237, 0.542);
+}
+#email:hover{
+    background-color: rgba(237, 237, 237, 0.542);
+}
+#senha:hover{
+    background-color: rgba(237, 237, 237, 0.542);
+}
+.login #login{
+    width: 60px;
+    margin-left: 40%;
+    color: #fff;
+    background: linear-gradient(45deg, rgba(241, 130, 107, 0.867), rgb(180, 10, 10));
+}
+.vegsivir{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+}
